@@ -1,0 +1,268 @@
+﻿  stdafx.cpp
+  Struct.cpp
+  PEresolverDlg.cpp
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(111): error C2665: “AfxMessageBox”: 2 个重载中没有一个可以转换所有参数类型
+  d:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\afxwin.h(6544): note: 可能是“int AfxMessageBox(UINT,UINT,UINT)”
+  d:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\afxwin.h(6542): note: 或  “int AfxMessageBox(LPCTSTR,UINT,UINT)”
+  e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(111): note: 尝试匹配参数列表“(const char [15])”时
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(117): error C2664: “errno_t strcpy_s(char *,std::rsize_t,const char *)”: 无法将参数 3 从“wchar_t *”转换为“const char *”
+  e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(117): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(130): error C2665: “AfxMessageBox”: 2 个重载中没有一个可以转换所有参数类型
+  d:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\afxwin.h(6544): note: 可能是“int AfxMessageBox(UINT,UINT,UINT)”
+  d:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\afxwin.h(6542): note: 或  “int AfxMessageBox(LPCTSTR,UINT,UINT)”
+  e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(130): note: 尝试匹配参数列表“(const char [21])”时
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(150): error C2665: “AfxMessageBox”: 2 个重载中没有一个可以转换所有参数类型
+  d:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\afxwin.h(6544): note: 可能是“int AfxMessageBox(UINT,UINT,UINT)”
+  d:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\afxwin.h(6542): note: 或  “int AfxMessageBox(LPCTSTR,UINT,UINT)”
+  e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(150): note: 尝试匹配参数列表“(const char [13])”时
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(158): warning C4311: “类型转换”: 从“_IMAGE_DOS_HEADER *”到“int”的指针截断
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(158): warning C4302: “类型转换”: 从“_IMAGE_DOS_HEADER *”到“int”截断
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(158): warning C4312: “类型转换”: 从“LONG”转换到更大的“_IMAGE_NT_HEADERS *”
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(159): warning C4311: “类型转换”: 从“_IMAGE_NT_HEADERS *”到“int”的指针截断
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(159): warning C4302: “类型转换”: 从“_IMAGE_NT_HEADERS *”到“int”截断
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(159): warning C4312: “类型转换”: 从“int”转换到更大的“IMAGE_FILE_HEADER *”
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(160): warning C4311: “类型转换”: 从“IMAGE_FILE_HEADER *”到“int”的指针截断
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(160): warning C4302: “类型转换”: 从“IMAGE_FILE_HEADER *”到“int”截断
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(160): warning C4312: “类型转换”: 从“int”转换到更大的“IMAGE_OPTIONAL_HEADER32 *”
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(161): warning C4311: “类型转换”: 从“IMAGE_OPTIONAL_HEADER32 *”到“int”的指针截断
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(161): warning C4302: “类型转换”: 从“IMAGE_OPTIONAL_HEADER32 *”到“int”截断
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(161): warning C4312: “类型转换”: 从“int”转换到更大的“IMAGE_SECTION_HEADER *”
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(180): error C2664: “HTREEITEM CTreeCtrl::InsertItem(LPCTSTR,int,int,HTREEITEM,HTREEITEM)”: 无法将参数 1 从“char [30]”转换为“LPTVINSERTSTRUCTW”
+  e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(180): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(184): error C2664: “HTREEITEM CTreeCtrl::InsertItem(LPCTSTR,int,int,HTREEITEM,HTREEITEM)”: 无法将参数 1 从“const char [6]”转换为“LPCTSTR”
+  e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(184): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(187): error C2664: “HTREEITEM CTreeCtrl::InsertItem(LPCTSTR,int,int,HTREEITEM,HTREEITEM)”: 无法将参数 1 从“const char [18]”转换为“LPCTSTR”
+  e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(187): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(190): error C2664: “HTREEITEM CTreeCtrl::InsertItem(LPCTSTR,int,int,HTREEITEM,HTREEITEM)”: 无法将参数 1 从“const char [5]”转换为“LPCTSTR”
+  e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(190): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(193): error C2664: “HTREEITEM CTreeCtrl::InsertItem(LPCTSTR,int,int,HTREEITEM,HTREEITEM)”: 无法将参数 1 从“const char [18]”转换为“LPCTSTR”
+  e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(193): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(196): error C2664: “HTREEITEM CTreeCtrl::InsertItem(LPCTSTR,int,int,HTREEITEM,HTREEITEM)”: 无法将参数 1 从“const char [10]”转换为“LPCTSTR”
+  e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(196): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(199): error C2664: “HTREEITEM CTreeCtrl::InsertItem(LPCTSTR,int,int,HTREEITEM,HTREEITEM)”: 无法将参数 1 从“const char [18]”转换为“LPCTSTR”
+  e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(199): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(202): error C2664: “HTREEITEM CTreeCtrl::InsertItem(LPCTSTR,int,int,HTREEITEM,HTREEITEM)”: 无法将参数 1 从“const char [24]”转换为“LPCTSTR”
+  e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(202): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(205): error C2664: “HTREEITEM CTreeCtrl::InsertItem(LPCTSTR,int,int,HTREEITEM,HTREEITEM)”: 无法将参数 1 从“const char [5]”转换为“LPCTSTR”
+  e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(205): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(208): error C2664: “HTREEITEM CTreeCtrl::InsertItem(LPCTSTR,int,int,HTREEITEM,HTREEITEM)”: 无法将参数 1 从“const char [9]”转换为“LPCTSTR”
+  e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(208): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(211): error C2664: “HTREEITEM CTreeCtrl::InsertItem(LPCTSTR,int,int,HTREEITEM,HTREEITEM)”: 无法将参数 1 从“const char [9]”转换为“LPCTSTR”
+  e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(211): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(214): error C2664: “HTREEITEM CTreeCtrl::InsertItem(LPCTSTR,int,int,HTREEITEM,HTREEITEM)”: 无法将参数 1 从“const char [9]”转换为“LPCTSTR”
+  e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(214): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(217): error C2664: “HTREEITEM CTreeCtrl::InsertItem(LPCTSTR,int,int,HTREEITEM,HTREEITEM)”: 无法将参数 1 从“const char [9]”转换为“LPCTSTR”
+  e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(217): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(220): error C2664: “HTREEITEM CTreeCtrl::InsertItem(LPCTSTR,int,int,HTREEITEM,HTREEITEM)”: 无法将参数 1 从“const char [6]”转换为“LPCTSTR”
+  e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(220): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(223): error C2664: “HTREEITEM CTreeCtrl::InsertItem(LPCTSTR,int,int,HTREEITEM,HTREEITEM)”: 无法将参数 1 从“const char [7]”转换为“LPCTSTR”
+  e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(223): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(250): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(282): error C2664: “int CListCtrl::InsertItem(UINT,int,LPCTSTR,UINT,UINT,int,LPARAM)”: 无法将参数 2 从“char *”转换为“LPCTSTR”
+  e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(282): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(286): error C2664: “int wsprintfW(LPWSTR,LPCWSTR,...)”: 无法将参数 1 从“char [100]”转换为“LPWSTR”
+  e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(286): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(287): error C2664: “BOOL CListCtrl::SetItemText(int,int,LPCTSTR)”: 无法将参数 3 从“char [100]”转换为“LPCTSTR”
+  e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(287): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(293): error C2664: “BOOL CListCtrl::SetItemText(int,int,LPCTSTR)”: 无法将参数 3 从“const char [5]”转换为“LPCTSTR”
+  e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(293): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(295): error C2664: “int wsprintfW(LPWSTR,LPCWSTR,...)”: 无法将参数 1 从“char [100]”转换为“LPWSTR”
+  e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(295): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(296): error C2664: “BOOL CListCtrl::SetItemText(int,int,LPCTSTR)”: 无法将参数 3 从“char [100]”转换为“LPCTSTR”
+  e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(296): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(297): warning C4311: “类型转换”: 从“void *”到“int”的指针截断
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(297): warning C4302: “类型转换”: 从“void *”到“int”截断
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(297): warning C4312: “类型转换”: 从“int”转换到更大的“void *”
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(301): error C2664: “BOOL CListCtrl::SetItemText(int,int,LPCTSTR)”: 无法将参数 3 从“const char [6]”转换为“LPCTSTR”
+  e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(301): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(303): error C2664: “int wsprintfW(LPWSTR,LPCWSTR,...)”: 无法将参数 1 从“char [100]”转换为“LPWSTR”
+  e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(303): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(304): error C2664: “BOOL CListCtrl::SetItemText(int,int,LPCTSTR)”: 无法将参数 3 从“char [100]”转换为“LPCTSTR”
+  e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(304): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(305): warning C4311: “类型转换”: 从“void *”到“int”的指针截断
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(305): warning C4302: “类型转换”: 从“void *”到“int”截断
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(305): warning C4312: “类型转换”: 从“int”转换到更大的“void *”
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(309): error C2664: “BOOL CListCtrl::SetItemText(int,int,LPCTSTR)”: 无法将参数 3 从“char *”转换为“LPCTSTR”
+  e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(309): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(328): error C2664: “int CListCtrl::InsertItem(UINT,int,LPCTSTR,UINT,UINT,int,LPARAM)”: 无法将参数 2 从“const char [10]”转换为“LPCTSTR”
+  e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(328): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(331): error C2664: “int wsprintfW(LPWSTR,LPCWSTR,...)”: 无法将参数 1 从“char [16]”转换为“LPWSTR”
+  e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(331): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(332): error C2664: “BOOL CListCtrl::SetItemText(int,int,LPCTSTR)”: 无法将参数 3 从“char [16]”转换为“LPCTSTR”
+  e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(332): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(334): error C2664: “BOOL CListCtrl::SetItemText(int,int,LPCTSTR)”: 无法将参数 3 从“const char [6]”转换为“LPCTSTR”
+  e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(334): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(336): error C2664: “int wsprintfW(LPWSTR,LPCWSTR,...)”: 无法将参数 1 从“char [16]”转换为“LPWSTR”
+  e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(336): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(337): error C2664: “BOOL CListCtrl::SetItemText(int,int,LPCTSTR)”: 无法将参数 3 从“char [16]”转换为“LPCTSTR”
+  e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(337): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(357): error C2664: “int CListCtrl::InsertItem(UINT,int,LPCTSTR,UINT,UINT,int,LPARAM)”: 无法将参数 2 从“const char [8]”转换为“LPCTSTR”
+  e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(357): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(358): error C2664: “int CListCtrl::InsertItem(UINT,int,LPCTSTR,UINT,UINT,int,LPARAM)”: 无法将参数 2 从“const char [17]”转换为“LPCTSTR”
+  e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(358): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(359): error C2664: “int CListCtrl::InsertItem(UINT,int,LPCTSTR,UINT,UINT,int,LPARAM)”: 无法将参数 2 从“const char [14]”转换为“LPCTSTR”
+  e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(359): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(360): error C2664: “int CListCtrl::InsertItem(UINT,int,LPCTSTR,UINT,UINT,int,LPARAM)”: 无法将参数 2 从“const char [21]”转换为“LPCTSTR”
+  e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(360): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(361): error C2664: “int CListCtrl::InsertItem(UINT,int,LPCTSTR,UINT,UINT,int,LPARAM)”: 无法将参数 2 从“const char [16]”转换为“LPCTSTR”
+  e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(361): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(362): error C2664: “int CListCtrl::InsertItem(UINT,int,LPCTSTR,UINT,UINT,int,LPARAM)”: 无法将参数 2 从“const char [21]”转换为“LPCTSTR”
+  e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(362): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(363): error C2664: “int CListCtrl::InsertItem(UINT,int,LPCTSTR,UINT,UINT,int,LPARAM)”: 无法将参数 2 从“const char [16]”转换为“LPCTSTR”
+  e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(363): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(372): error C2664: “int wsprintfW(LPWSTR,LPCWSTR,...)”: 无法将参数 1 从“char [16]”转换为“LPWSTR”
+  e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(372): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(373): error C2664: “BOOL CListCtrl::SetItemText(int,int,LPCTSTR)”: 无法将参数 3 从“char [16]”转换为“LPCTSTR”
+  e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(373): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(378): error C2664: “BOOL CListCtrl::SetItemText(int,int,LPCTSTR)”: 无法将参数 3 从“const char [6]”转换为“LPCTSTR”
+  e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(378): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(381): error C2664: “int wsprintfW(LPWSTR,LPCWSTR,...)”: 无法将参数 1 从“char [16]”转换为“LPWSTR”
+  e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(381): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(382): error C2664: “BOOL CListCtrl::SetItemText(int,int,LPCTSTR)”: 无法将参数 3 从“char [16]”转换为“LPCTSTR”
+  e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(382): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(384): warning C4311: “类型转换”: 从“void *”到“int”的指针截断
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(384): warning C4302: “类型转换”: 从“void *”到“int”截断
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(384): warning C4312: “类型转换”: 从“int”转换到更大的“void *”
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(390): error C2664: “BOOL CListCtrl::SetItemText(int,int,LPCTSTR)”: 无法将参数 3 从“const char [5]”转换为“LPCTSTR”
+  e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(390): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(393): error C2664: “int wsprintfW(LPWSTR,LPCWSTR,...)”: 无法将参数 1 从“char [16]”转换为“LPWSTR”
+  e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(393): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(394): error C2664: “BOOL CListCtrl::SetItemText(int,int,LPCTSTR)”: 无法将参数 3 从“char [16]”转换为“LPCTSTR”
+  e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(394): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(396): warning C4311: “类型转换”: 从“void *”到“int”的指针截断
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(396): warning C4302: “类型转换”: 从“void *”到“int”截断
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(396): warning C4312: “类型转换”: 从“int”转换到更大的“void *”
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(407): warning C4311: “类型转换”: 从“void *”到“int”的指针截断
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(407): warning C4302: “类型转换”: 从“void *”到“int”截断
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(407): warning C4312: “类型转换”: 从“int”转换到更大的“void *”
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(412): error C2664: “BOOL CListCtrl::SetItemText(int,int,LPCTSTR)”: 无法将参数 3 从“char *”转换为“LPCTSTR”
+  e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(412): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(417): error C2664: “BOOL CListCtrl::SetItemText(int,int,LPCTSTR)”: 无法将参数 3 从“const char [9]”转换为“LPCTSTR”
+  e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(417): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(419): warning C4311: “类型转换”: 从“IMAGE_FILE_HEADER *”到“int”的指针截断
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(419): warning C4302: “类型转换”: 从“IMAGE_FILE_HEADER *”到“int”截断
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(419): warning C4312: “类型转换”: 从“int”转换到更大的“void *”
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(431): error C2664: “int wsprintfW(LPWSTR,LPCWSTR,...)”: 无法将参数 1 从“char [100]”转换为“LPWSTR”
+  e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(431): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(432): error C2664: “BOOL CListCtrl::SetItemText(int,int,LPCTSTR)”: 无法将参数 3 从“char [100]”转换为“LPCTSTR”
+  e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(432): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(434): error C2664: “BOOL CListCtrl::SetItemText(int,int,LPCTSTR)”: 无法将参数 3 从“const char [13]”转换为“LPCTSTR”
+  e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(434): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(436): warning C4311: “类型转换”: 从“IMAGE_FILE_HEADER *”到“int”的指针截断
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(436): warning C4302: “类型转换”: 从“IMAGE_FILE_HEADER *”到“int”截断
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(436): warning C4312: “类型转换”: 从“int”转换到更大的“void *”
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(448): error C2664: “BOOL CListCtrl::SetItemText(int,int,LPCTSTR)”: 无法将参数 3 从“char [4096]”转换为“LPCTSTR”
+  e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(448): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(468): warning C4018: “<”: 有符号/无符号不匹配
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(471): error C2664: “int CListCtrl::InsertItem(UINT,int,LPCTSTR,UINT,UINT,int,LPARAM)”: 无法将参数 2 从“char *”转换为“LPCTSTR”
+  e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(471): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(475): error C2664: “int wsprintfW(LPWSTR,LPCWSTR,...)”: 无法将参数 1 从“char [36]”转换为“LPWSTR”
+  e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(475): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(476): error C2664: “BOOL CListCtrl::SetItemText(int,int,LPCTSTR)”: 无法将参数 3 从“char [36]”转换为“LPCTSTR”
+  e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(476): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(483): error C2664: “BOOL CListCtrl::SetItemText(int,int,LPCTSTR)”: 无法将参数 3 从“const char [5]”转换为“LPCTSTR”
+  e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(483): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(486): error C2664: “int wsprintfW(LPWSTR,LPCWSTR,...)”: 无法将参数 1 从“char [36]”转换为“LPWSTR”
+  e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(486): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(487): error C2664: “BOOL CListCtrl::SetItemText(int,int,LPCTSTR)”: 无法将参数 3 从“char [36]”转换为“LPCTSTR”
+  e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(487): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(488): warning C4311: “类型转换”: 从“void *”到“int”的指针截断
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(488): warning C4302: “类型转换”: 从“void *”到“int”截断
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(488): warning C4312: “类型转换”: 从“int”转换到更大的“void *”
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(492): error C2664: “BOOL CListCtrl::SetItemText(int,int,LPCTSTR)”: 无法将参数 3 从“const char [5]”转换为“LPCTSTR”
+  e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(492): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(494): error C2664: “int wsprintfW(LPWSTR,LPCWSTR,...)”: 无法将参数 1 从“char [36]”转换为“LPWSTR”
+  e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(494): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(495): error C2664: “BOOL CListCtrl::SetItemText(int,int,LPCTSTR)”: 无法将参数 3 从“char [36]”转换为“LPCTSTR”
+  e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(495): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(496): warning C4311: “类型转换”: 从“void *”到“int”的指针截断
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(496): warning C4302: “类型转换”: 从“void *”到“int”截断
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(496): warning C4312: “类型转换”: 从“int”转换到更大的“void *”
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(500): error C2664: “BOOL CListCtrl::SetItemText(int,int,LPCTSTR)”: 无法将参数 3 从“const char [6]”转换为“LPCTSTR”
+  e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(500): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(502): error C2664: “int wsprintfW(LPWSTR,LPCWSTR,...)”: 无法将参数 1 从“char [36]”转换为“LPWSTR”
+  e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(502): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(503): error C2664: “BOOL CListCtrl::SetItemText(int,int,LPCTSTR)”: 无法将参数 3 从“char [36]”转换为“LPCTSTR”
+  e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(503): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(504): warning C4311: “类型转换”: 从“void *”到“int”的指针截断
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(504): warning C4302: “类型转换”: 从“void *”到“int”截断
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(504): warning C4312: “类型转换”: 从“int”转换到更大的“void *”
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(508): error C2664: “BOOL CListCtrl::SetItemText(int,int,LPCTSTR)”: 无法将参数 3 从“const char [22]”转换为“LPCTSTR”
+  e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(508): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(510): warning C4311: “类型转换”: 从“void *”到“int”的指针截断
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(510): warning C4302: “类型转换”: 从“void *”到“int”截断
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(510): warning C4312: “类型转换”: 从“int”转换到更大的“DWORD *”
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(510): error C2664: “int wsprintfW(LPWSTR,LPCWSTR,...)”: 无法将参数 1 从“char [36]”转换为“LPWSTR”
+  e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(510): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(511): error C2664: “BOOL CListCtrl::SetItemText(int,int,LPCTSTR)”: 无法将参数 3 从“char [36]”转换为“LPCTSTR”
+  e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(511): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(512): warning C4311: “类型转换”: 从“void *”到“int”的指针截断
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(512): warning C4302: “类型转换”: 从“void *”到“int”截断
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(512): warning C4312: “类型转换”: 从“int”转换到更大的“void *”
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(517): error C2664: “BOOL CListCtrl::SetItemText(int,int,LPCTSTR)”: 无法将参数 3 从“const char [11]”转换为“LPCTSTR”
+  e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(517): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(518): error C2664: “BOOL CListCtrl::SetItemText(int,int,LPCTSTR)”: 无法将参数 3 从“const char [13]”转换为“LPCTSTR”
+  e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(518): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(519): error C2664: “BOOL CListCtrl::SetItemText(int,int,LPCTSTR)”: 无法将参数 3 从“const char [9]”转换为“LPCTSTR”
+  e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(519): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(520): error C2664: “BOOL CListCtrl::SetItemText(int,int,LPCTSTR)”: 无法将参数 3 从“const char [9]”转换为“LPCTSTR”
+  e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(520): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(521): error C2664: “BOOL CListCtrl::SetItemText(int,int,LPCTSTR)”: 无法将参数 3 从“const char [27]”转换为“LPCTSTR”
+  e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(521): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(522): error C2664: “BOOL CListCtrl::SetItemText(int,int,LPCTSTR)”: 无法将参数 3 从“const char [20]”转换为“LPCTSTR”
+  e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(522): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(523): error C2664: “BOOL CListCtrl::SetItemText(int,int,LPCTSTR)”: 无法将参数 3 从“const char [7]”转换为“LPCTSTR”
+  e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(523): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(524): error C2664: “BOOL CListCtrl::SetItemText(int,int,LPCTSTR)”: 无法将参数 3 从“const char [9]”转换为“LPCTSTR”
+  e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(524): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(525): error C2664: “BOOL CListCtrl::SetItemText(int,int,LPCTSTR)”: 无法将参数 3 从“const char [11]”转换为“LPCTSTR”
+  e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(525): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(526): error C2664: “BOOL CListCtrl::SetItemText(int,int,LPCTSTR)”: 无法将参数 3 从“const char [11]”转换为“LPCTSTR”
+  e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(526): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(527): error C2664: “BOOL CListCtrl::SetItemText(int,int,LPCTSTR)”: 无法将参数 3 从“const char [11]”转换为“LPCTSTR”
+  e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(527): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(528): error C2664: “BOOL CListCtrl::SetItemText(int,int,LPCTSTR)”: 无法将参数 3 从“const char [11]”转换为“LPCTSTR”
+  e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(528): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(529): error C2664: “BOOL CListCtrl::SetItemText(int,int,LPCTSTR)”: 无法将参数 3 从“const char [11]”转换为“LPCTSTR”
+  e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(529): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(531): error C2664: “BOOL CListCtrl::SetItemText(int,int,LPCTSTR)”: 无法将参数 3 从“const char [17]”转换为“LPCTSTR”
+  e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(531): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(532): error C2664: “BOOL CListCtrl::SetItemText(int,int,LPCTSTR)”: 无法将参数 3 从“const char [17]”转换为“LPCTSTR”
+  e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(532): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(533): error C2664: “BOOL CListCtrl::SetItemText(int,int,LPCTSTR)”: 无法将参数 3 从“const char [19]”转换为“LPCTSTR”
+  e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(533): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(534): error C2664: “BOOL CListCtrl::SetItemText(int,int,LPCTSTR)”: 无法将参数 3 从“const char [22]”转换为“LPCTSTR”
+  e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(534): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(535): error C2664: “BOOL CListCtrl::SetItemText(int,int,LPCTSTR)”: 无法将参数 3 从“const char [14]”转换为“LPCTSTR”
+  e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(535): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(536): error C2664: “BOOL CListCtrl::SetItemText(int,int,LPCTSTR)”: 无法将参数 3 从“const char [21]”转换为“LPCTSTR”
+  e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(536): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(543): error C2665: “AfxMessageBox”: 2 个重载中没有一个可以转换所有参数类型
+  d:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\afxwin.h(6544): note: 可能是“int AfxMessageBox(UINT,UINT,UINT)”
+  d:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\afxwin.h(6542): note: 或  “int AfxMessageBox(LPCTSTR,UINT,UINT)”
+  e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(543): note: 尝试匹配参数列表“(const char [17])”时
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(572): error C2664: “int CListCtrl::InsertItem(UINT,int,LPCTSTR,UINT,UINT,int,LPARAM)”: 无法将参数 2 从“char *”转换为“LPCTSTR”
+  e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(572): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(576): error C2664: “int CListCtrl::InsertItem(UINT,int,LPCTSTR,UINT,UINT,int,LPARAM)”: 无法将参数 2 从“const char [1]”转换为“LPCTSTR”
+  e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(576): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(581): error C2664: “BOOL CListCtrl::SetItemText(int,int,LPCTSTR)”: 无法将参数 3 从“char *”转换为“LPCTSTR”
+  e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(581): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(585): error C2664: “int wsprintfW(LPWSTR,LPCWSTR,...)”: 无法将参数 1 从“char [36]”转换为“LPWSTR”
+  e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(585): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(586): error C2664: “BOOL CListCtrl::SetItemText(int,int,LPCTSTR)”: 无法将参数 3 从“char [36]”转换为“LPCTSTR”
+  e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(586): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(592): error C2664: “BOOL CListCtrl::SetItemText(int,int,LPCTSTR)”: 无法将参数 3 从“const char [5]”转换为“LPCTSTR”
+  e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(592): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(595): error C2664: “int wsprintfW(LPWSTR,LPCWSTR,...)”: 无法将参数 1 从“char [36]”转换为“LPWSTR”
+  e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(595): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(596): error C2664: “BOOL CListCtrl::SetItemText(int,int,LPCTSTR)”: 无法将参数 3 从“char [36]”转换为“LPCTSTR”
+  e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(596): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(597): warning C4311: “类型转换”: 从“void *”到“int”的指针截断
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(597): warning C4302: “类型转换”: 从“void *”到“int”截断
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(597): warning C4312: “类型转换”: 从“int”转换到更大的“void *”
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(601): error C2664: “BOOL CListCtrl::SetItemText(int,int,LPCTSTR)”: 无法将参数 3 从“const char [6]”转换为“LPCTSTR”
+  e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(601): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(604): error C2664: “int wsprintfW(LPWSTR,LPCWSTR,...)”: 无法将参数 1 从“char [36]”转换为“LPWSTR”
+e:\honework\三阶段\项目\pe解析器\peresolver\peresolver\peresolverdlg.cpp(604): fatal error C1003: 错误计数超过 100；正在停止编译
+  PEresolver.cpp
+  正在生成代码...

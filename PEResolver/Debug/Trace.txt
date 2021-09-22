@@ -1,0 +1,15 @@
+0124F6D3:  E8 F8FCFFFF       call 0124F3D0
+012512C0:  55                push ebp
+012512C1:  8BEC              mov ebp, esp
+012512C3:  83EC14            sub esp, 14
+012512C6:  C745F4 00000000   mov Dword ptr SS:[ebp-0Ch],00000000
+012512CD:  C745F8 00000000   mov Dword ptr SS:[ebp-08h],00000000
+012512D4:  813D44354201 4EE640BB  cmp Dword ptr DS:[01423544],BB40E64E
+012512DE:  741F              jz 012512FF
+012512E0:  A1 44354201       mov eax, Dword ptr DS:[01423544]
+012512E5:  25 0000FFFF       and eax, FFFF0000
+012512EA:  7413              jz 012512FF
+012512EC:  8B0D44354201      mov ecx,Dword ptr DS:[01423544]
+012512F2:  F7D1              not ecx
+012512F4:  890D40354201      mov Dword ptr DS:[01423540],ecx
+012512FA:  E9 9A000000       jmp 01251399
